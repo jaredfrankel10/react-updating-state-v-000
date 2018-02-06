@@ -6,7 +6,7 @@ import React from 'react';
        timesClicked: 0
      }
    }
- 
+
    handleClick = ()=>{
      this.setState({timesClicked: this.state.timesClicked+=1})
    }
